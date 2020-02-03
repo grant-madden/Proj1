@@ -58,12 +58,10 @@ void RunJournal::find_remove(Runtime tmp){
             
             if (tolower(userInput) == 'y'){
                 MyTime remove;
-                journal[i].set_time(remove);
-                journal[i].set_distance(0);
-                // cout << "X: " << i << " RecordedRuns: " << recordedRuns << endl;
-                // for (int x = i; x < recordedRuns; x++){
-                //     journal[x] = journal[x+i];
-                // }
+                cout << "X: " << i << " RecordedRuns: " << recordedRuns << endl;
+                for (int x = i; x < recordedRuns - 1; x++){
+                    journal[x] = journal[x+1];
+                }
                 recordedRuns--;
             }
 
