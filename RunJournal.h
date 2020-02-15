@@ -11,6 +11,12 @@
 		Ohio University, Athens, Ohio
 		Spring Semester 2020
 *************************************************************************/
+/*
+	Grant Madden
+	CS 2401
+	2/2/2020
+	
+*/
 #include <iostream>
 #ifndef RUNJOURNAL_H
 #define RUNJOURNAL_H

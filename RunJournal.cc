@@ -1,3 +1,9 @@
+/*
+	Grant Madden
+	CS 2401
+	2/2/2020
+	
+*/
 // The implementation file for the RunJournal class
 #include "RunJournal.h"
 #include "MyTime.h"

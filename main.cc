@@ -8,6 +8,15 @@
 	I have provided some numbers to guide you in the step-step development
 	of this program. Uncomment each as you write the function.
 *******************************************************************/
+
+/*
+	Grant Madden
+	CS 2401
+	2/2/2020
+	
+	This program allows the user to create a runjournal, keeping track of a list of 
+	up to 200 runs and their times and distance. 
+*/
 #include<iostream>
 #include<fstream>
 #include "runtime.h"
@@ -85,7 +94,7 @@ int main( ){
 	} // bottom of the switch
     	}while(choice != 0);
 //file saving
-	ofs.open("runlog1.txt");
+	ofs.open("runlog.txt");
 	if(!ofs.fail()){
 	    myruns.save(ofs); //11th
 	    ofs.close();

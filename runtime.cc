@@ -1,3 +1,9 @@
+/*
+	Grant Madden
+	CS 2401
+	2/2/2020
+	
+*/
 #include "runtime.h"
 #include "MyTime.h"
 #include <cstdlib>
